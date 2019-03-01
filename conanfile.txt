@@ -1,0 +1,5 @@
+[requires]
+magnum/2018.10@helmesjo/stable
+
+[generators]
+cmake
