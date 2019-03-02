@@ -1,5 +1,10 @@
 [requires]
 magnum/2018.10@helmesjo/stable
+glfw/3.2.1.20180327@bincrafters/stable
 
 [generators]
 cmake
+
+[options]
+magnum:with_glfwapplication=True
+magnum:with_sdl2application=False
